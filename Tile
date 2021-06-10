@@ -5,7 +5,7 @@ from turtle import *
 screen = Screen()
 
 
-screen.bgcolor("red")
+screen.bgcolor("coral")
 
 
 
@@ -13,7 +13,7 @@ def Square(x, y):
     up()
     goto(x, y)
     down()
-    color('white', 'blue')
+    color('indigo', 'teal')
     begin_fill()
     for count in range(4):
         forward(50)
@@ -60,7 +60,7 @@ def draw():
         x, y = Coordinates(mark)
         up()
         goto(x + 2, y)
-        color('white')
+        color('indigo')
         write(tiles[mark], font=('Arial', 30, 'normal'))
 
     update()
